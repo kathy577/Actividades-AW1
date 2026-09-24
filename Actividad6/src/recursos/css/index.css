@@ -1,0 +1,154 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f8fc;
+    color: #333333;
+    font-family: "Segoe UI", sans-serif;
+}
+
+h1,h2{
+    font-family: Georgia, serif;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 24px;
+    color: #1E3A5F;
+    margin-bottom: 15px;
+}
+
+p{
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin-left: 20px;
+}
+
+.cabecera-principal{
+    background-color: #1E3A5F;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.cabecera-principal img{
+    width: 90px;
+    height: auto;
+}
+
+.cabecera-principal nav{
+    margin-top: 15px;
+}
+
+.cabecera-principal nav a{
+    color: white;
+    margin: 10px;
+}
+
+.contenido-principal{
+    padding: 20px;
+}
+
+.presentacion,
+.servicios,
+.trayectoria,
+.certificaciones,
+.formulario-contacto,
+.informacion-extra{
+
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    border: 1px solid #d9d9d9;
+}
+
+.presentacion img,
+.trayectoria img{
+
+    width: 220px;
+    height: auto;
+
+    display: block;
+    margin: 15px auto;
+
+    border: 2px solid #4DA6FF;
+}
+
+.certificaciones img{
+
+    width: 180px;
+    height: auto;
+
+    margin: 10px;
+    border: 2px solid #4DA6FF;
+}
+
+.informacion-extra img{
+    width: 250px;
+    height: auto;
+
+    margin: 10px;
+    border: 2px solid #4DA6FF;
+}
+
+.servicios li{
+    margin-bottom: 8px;
+}
+
+.formulario-contacto form{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-contacto label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.formulario-contacto input,
+.formulario-contacto select,
+.formulario-contacto textarea{
+
+    padding: 8px;
+    margin-bottom: 10px;
+
+    border: 1px solid #cccccc;
+}
+
+.formulario-contacto button{
+
+    background-color: #F4A261;
+    color: white;
+
+    border: none;
+
+    padding: 10px;
+
+    cursor: pointer;
+}
+
+.pie-principal{
+
+    background-color: #1E3A5F;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 15px;
+}
