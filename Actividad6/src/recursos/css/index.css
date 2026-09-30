@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -7,26 +6,38 @@
 
 body{
     background-color: #f5f8fc;
-    color: #333333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: "Segoe UI", sans-serif;
 }
 
-h1,h2{
-    font-family: Georgia, serif;
+header{
+    background-color: #1E3A5F;
+}
+
+main{
+    flex: 1;
+}
+
+footer{
+    background-color: #1E3A5F;
 }
 
 h1{
+    font-family: Georgia, serif;
     font-size: 32px;
+    color: white;
 }
 
 h2{
-    font-size: 24px;
+    font-family: Georgia, serif;
     color: #1E3A5F;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 p{
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     line-height: 1.5;
 }
 
@@ -34,15 +45,35 @@ a{
     text-decoration: none;
 }
 
+section{
+    padding: 20px;
+    margin: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #999999;
+}
+
 ul{
     margin-left: 20px;
 }
 
 .cabecera-principal{
-    background-color: #1E3A5F;
-    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
-    text-align: center;
+    color: white;
 }
 
 .cabecera-principal img{
@@ -54,13 +85,16 @@ ul{
     margin-top: 15px;
 }
 
+
 .cabecera-principal nav a{
     color: white;
     margin: 10px;
 }
 
 .contenido-principal{
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .presentacion,
@@ -71,39 +105,31 @@ ul{
 .informacion-extra{
 
     background-color: white;
-    padding: 20px;
-    margin-bottom: 20px;
+    width: 80vw;
 
-    border: 1px solid #d9d9d9;
+    border: 1px solid #cccccc;
 }
 
-.presentacion img,
-.trayectoria img{
-
-    width: 220px;
-    height: auto;
-
+.presentacion img{
+    width: 200px;
     display: block;
     margin: 15px auto;
+}
 
-    border: 2px solid #4DA6FF;
+.trayectoria img{
+    width: 200px;
+    display: block;
+    margin: 15px auto;
 }
 
 .certificaciones img{
-
-    width: 180px;
-    height: auto;
-
+    width: 150px;
     margin: 10px;
-    border: 2px solid #4DA6FF;
 }
 
 .informacion-extra img{
-    width: 250px;
-    height: auto;
-
+    width: 200px;
     margin: 10px;
-    border: 2px solid #4DA6FF;
 }
 
 .servicios li{
@@ -115,24 +141,10 @@ ul{
     flex-direction: column;
 }
 
-.formulario-contacto label{
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-.formulario-contacto input,
-.formulario-contacto select,
-.formulario-contacto textarea{
-
-    padding: 8px;
-    margin-bottom: 10px;
-
-    border: 1px solid #cccccc;
-}
-
 .formulario-contacto button{
 
     background-color: #F4A261;
+
     color: white;
 
     border: none;
@@ -144,11 +156,15 @@ ul{
 
 .pie-principal{
 
-    background-color: #1E3A5F;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    min-height: 40px;
 
     color: white;
 
-    text-align: center;
-
-    padding: 15px;
+    padding: 20px;
 }
