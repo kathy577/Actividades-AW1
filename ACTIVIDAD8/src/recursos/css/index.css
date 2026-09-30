@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Sora';
+    src: url(./fuentes/Sora-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Sora', sans-serif;
+    font-size: 1.6rem;
+}
+
+body{
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header{
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+a{
+    background-color: transparent;
+}

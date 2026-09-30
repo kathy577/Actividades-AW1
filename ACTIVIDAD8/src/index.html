@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retiro Sustentable - Catálogo</title>
+    /* 
+    Colocar link de css para el index.html
+    */
+    <link rel="stylesheet" href="./recursos/css/index.css">
+</head>
+<body>
+    /*
+   Se reemplazó un div por header para utilizar
+    un elemento semántico que represente el encabezado
+    principal del sitio.
+    */
+    <header class="cabecera-principal">
+        <a href="index.html">
+            <img src="./recursos/imagenes/logo-rs.svg" alt="Logo de Retiro Sustentable">
+            /*El atributo alt proporciona una descripción alternativa de la imagen
+             para mejorar la accesibilidad y la experiencia del usuario.
+             Tambien es mas facil verificar si la imagen se carga correctamente y si no, el texto alternativo se mostrará en su lugar.
+            */
+        </a>
+        <span> Retiro Sustentable</span>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="reservas.html">Reservas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> 
+        <h1>Catálogo de Cabañas</h1>
+        <h2>Cabañas para alquiler</h2> 
+        /*Se corrigio con h2 */
+        <p>Bienvenido a nuestro catálogo de cabañas. Explora nuestras opciones y encuentra la que mejor se adapte a tus necesidades.</p>
+        /*Reorganizamos y reemplazamos el div por section y article para utilizar elementos semánticos que representen secciones y artículos de contenido, 
+        mejorando la estructura y accesibilidad del sitio web.*/
+        <section>
+            <article>
+                <h3>Cabaña 1</h3>
+                <img src="./recursos/imagenes/modelo1.webp" alt="Imagen de la Cabaña 1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Libero doloribus aperiam quisquam ea similique quo dicta
+                    voluptatum laboriosam veritatis sunt.
+                </p>
+                <p>Precio: $100000 por noche</p>
+                <a href="reservas.html">Reservar ahora</a>
+            </article>
+            <article>
+                <h3>Cabaña 2</h3>
+                <img src="./recursos/imagenes/modelo2.webp" alt="Imagen de la Cabaña 2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Libero doloribus aperiam quisquam ea similique quo dicta
+                    voluptatum laboriosam veritatis sunt.
+                </p>
+                <p>Precio: $150000 por noche</p>
+                <a href="reservas.html">Reservar ahora</a>
+            </article>
+            <article>
+                <h3>Cabaña 3</h3>
+                <img src="./recursos/imagenes/modelo3.webp" alt="Imagen de la Cabaña 3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Libero doloribus aperiam quisquam ea similique quo dicta
+                    voluptatum laboriosam veritatis sunt.
+                </p>
+                <p>Precio: $200000 por noche</p>
+                <a href="reservas.html">Reservar ahora</a>
+            </article>
+            <article>
+                <h3>Cabaña 4</h3>
+                <img src="./recursos/imagenes/modelo4.webp" alt="Imagen de la Cabaña 4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Libero doloribus aperiam quisquam ea similique quo dicta
+                    voluptatum laboriosam veritatis sunt.
+                </p>
+                <p>Precio: $250000 por noche</p>
+                <a href="reservas.html">Reservar ahora</a>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Retiro Sustentable. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
