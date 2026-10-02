@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Retiro Sustentable - Reservas</title>
-    <link rel="stylesheet" href="./recursos/css/reservas.css">
-    /* Colocar link de css para el reservas.html*/
+    <link rel="stylesheet" href="./recursos/css/index.css">
+    <!-- Colocar link de css para el reservas.html-->
 </head>
 <body>
-    <header>
+    <header class="cabecera-principal">
         <a href="index.html">
             <img src="./recursos/imagenes/logo-rs.svg" alt="Logo de Retiro Sustentable">
         </a>
@@ -20,20 +20,19 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="contenido-principal">
         <h1>Reservas</h1>
         <h2>Contactanos</h2>
-        /*Se agrego h2 para mejorar la estructura del contenido y la accesibilidad del sitio web.*/
+        <!--Se agrego h2 para mejorar la estructura del contenido y la accesibilidad del sitio web-->
        <form action="./reservas.html" method="post">
-        /*Se agregan labels asociados a cada campo mediante los atributos for e id para mejorar la accesibilidad 
-        y la usabilidad del formulario.*/
+        <!--Se agregan labels asociados a cada campo mediante los atributos for e id para mejorar la accesibilidad 
+        y la usabilidad del formulario-->
         <label for="id-nombre">Nombre:</label>
             <input type="text" name="nombre" id="id-nombre">
         <label for="id-telefono">Telefono:</label>
             <input type="tel" name="telefono" id="id-telefono">
         <label for="id-email">Email:</label>
             <input type="email" name="email" id="id-email">
-        </label>
         <label for="id-Fecha-desde">Fecha desde:</label>
             <input type="date" name="fecha_desde" id="id-Fecha-desde">
         <label for="id-Fecha-hasta">Fecha hasta:</label>
@@ -43,7 +42,7 @@
         <button type="submit">Enviar</button>
        </form>
     </main>
-    <footer>
+    <footer class="pie-principal">
         <p>&copy; 2026 Retiro Sustentable. Todos los derechos reservados.</p>
     </footer>
 </body>

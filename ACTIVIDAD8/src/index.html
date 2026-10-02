@@ -4,40 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Retiro Sustentable - Catálogo</title>
-    /* 
-    Colocar link de css para el index.html
-    */
+    <!---Colocar link de css para el index.html--->
     <link rel="stylesheet" href="./recursos/css/index.css">
 </head>
 <body>
-    /*
+    <!--
    Se reemplazó un div por header para utilizar
     un elemento semántico que represente el encabezado
     principal del sitio.
-    */
+    --->
     <header class="cabecera-principal">
         <a href="index.html">
             <img src="./recursos/imagenes/logo-rs.svg" alt="Logo de Retiro Sustentable">
-            /*El atributo alt proporciona una descripción alternativa de la imagen
+            <!--El atributo alt proporciona una descripción alternativa de la imagen
              para mejorar la accesibilidad y la experiencia del usuario.
              Tambien es mas facil verificar si la imagen se carga correctamente y si no, el texto alternativo se mostrará en su lugar.
-            */
+            -->
         </a>
         <span> Retiro Sustentable</span>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="reservas.html">Reservas</a></li>
+                <!--Se agregó un elemento de navegación para las reservas-->
             </ul>
         </nav>
     </header>
-    <main> 
+    <main class="contenido-principal"> 
         <h1>Catálogo de Cabañas</h1>
         <h2>Cabañas para alquiler</h2> 
-        /*Se corrigio con h2 */
+        <!--Se corrigio con h2 -->
         <p>Bienvenido a nuestro catálogo de cabañas. Explora nuestras opciones y encuentra la que mejor se adapte a tus necesidades.</p>
-        /*Reorganizamos y reemplazamos el div por section y article para utilizar elementos semánticos que representen secciones y artículos de contenido, 
-        mejorando la estructura y accesibilidad del sitio web.*/
+        <!--Reorganizamos y reemplazamos el div por section y article para utilizar elementos semánticos que representen secciones y artículos de contenido, 
+        mejorando la estructura y accesibilidad del sitio web.-->
         <section>
             <article>
                 <h3>Cabaña 1</h3>
@@ -81,7 +80,7 @@
             </article>
         </section>
     </main>
-    <footer>
+    <footer class="pie-principal">
         <p>&copy; 2026 Retiro Sustentable. Todos los derechos reservados.</p>
     </footer>
 </body>
